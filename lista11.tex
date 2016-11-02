@@ -1,0 +1,112 @@
+\documentclass[12pt,letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage[table]{xcolor}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{ragged2e}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{gensymb}
+\usepackage{wasysym}
+%\usepackage[brazil]{babel}
+\newlength{\tabcont}
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.05in}
+
+\begin{document}
+	
+	\large \textbf{Nome}: Luís Felipe de Melo Costa Silva \\
+	\textbf{Número USP}: 9297961 
+    
+	\begin{center}
+		\LARGE \bf
+		Lista de Exercícios 11 - AGA0215
+	\end{center}
+	
+	\part{}
+	
+	\begin{multicols}{7}
+		\begin{enumerate}
+			\item F.
+			\item V.
+			\item F.
+			\item V.
+			\item V.
+			\item F.
+			\item V.
+			\item F.
+			\item F.
+			\item V.
+			\item V.
+			\item V.
+		    \item F.
+		    \item V.
+		\end{enumerate}
+	\end{multicols}
+	
+	\part{}
+		\begin{multicols}{2}
+			\begin{enumerate}
+				\item Estamos dentro dela.
+				\item Disco.
+				\item Halo.
+				\item Brilho.
+				\item Faixa de instabilidade.
+				\item Maior.
+				\item Ordenadas.
+				\item Disco.
+				\item Randômicas.
+				\item Na sua periferia.
+				\item Buraco Negro.
+				\item Matéria escura.
+			\end{enumerate}
+		\end{multicols}
+	
+	\part{}
+		\textbf{1.} Vamos usar que $D = 100$ kpc $= 10^6$ pc, $L_{cef} = 30000\cdot L_{\astrosun}$, e que $M_{\astrosun} = +5$. Logo, a magnitude aparente de uma Cefeida é, usando $M = cte -2,5 log Fr$:
+        \begin{center}
+        	$M = M_{\astrosun} -2,5 \cdot log(\frac{L_{cef}}{L_{\astrosun}}) = 5 - 11,19 = -6,19$
+        \end{center}
+        
+        Para descobrir a máxima distância, temos que achar a máxima magnitude aparente que o HST pode enxergar, portanto, usando $m - M = 5\cdot log D - 5$:
+        
+        \begin{center}
+        	$m - 5 = 5\cdot log 10^5 -5$\\
+        	$m = 5\cdot log 10^5$\\
+        	$m = 25$
+        \end{center}
+        
+        Agora, podemos estimar a distância, ainda usando essa relação:
+        
+        \begin{center}
+        	$25 - (-6,2) = 5\cdot log D -5$\\
+        	$log D = 7,24$\\
+        	$D = 17,378 \cdot 10^6$ pc
+        \end{center}
+        
+        \textbf{2.} Considerando que a estrela é afetada pela extinção, temos que $m = m_0 + A_{\lambda}$. Sabendo que a máxima magnitude aparente que o HST pode enxergar é 25, temos que:
+        
+        \begin{center}
+        	$m - M = 5\cdot log D - 5$\\
+        	$m - \frac{2,5D}{1000} - M =  5\cdot log D - 5$, pois a magnitude está medida em kpc\\
+        	$5\cdot log D + \frac{2,5D}{1000} = M + 5 - m$ \\
+        	$5\cdot log D + \frac{2,5D}{1000} = 25 + 5 +6,2$ \\
+        	$5\cdot log D + \frac{2,5D}{1000} = 36,2\to $\\
+        	$D \cong 6,8$ kpc
+        \end{center}
+        
+		\textbf{3.} Usando que $P = \frac{2\pi r}{v}$, temos:
+		
+		\begin{center}
+			$P = \frac{2\cdot 3,14\cdot 8000 \cdot 3,08 \cdot 10^{13}}{220}$\\
+			$P \cong 7\cdot 10^{15} s \cong 221$ milhões de anos 
+		\end{center} 
+        
+        \textbf{4.} Sabendo que $M(M_{\astrosun}) = \frac{r^3}{P^2}$, temos que:
+        
+        \begin{center}
+        	$M(M_{\astrosun}) = \frac{950^3}{15^2}$\\
+        	$M(M_{\astrosun}) \cong 3,81 \cdot M_{\astrosun}$        	
+        \end{center}
+			 
+\end{document}
